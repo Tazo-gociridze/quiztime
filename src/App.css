@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.quiz-wrapper{
+  width: 1440px;
+  height: 800px;
+  background-color: rgb(226, 223, 222);
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+
+  button{
+    width: 240px;
+    height: 60px;
+    background: rgba(116, 116, 117, 1);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+  }
+}
+
+.questions{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+}
+
+.variants{
+  width: 510px;
+  height: 81px;
+  background-color: azure;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.active{
+  border: 10px solid red;
+}
+
+.variants {
+  padding: 10px;
+  border: 3px solid #ccc;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.variants.selected {
+  background-color: #eee; 
+  border-color: #0cb929; 
+}
+
